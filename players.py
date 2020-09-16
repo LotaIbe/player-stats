@@ -4,9 +4,10 @@ import numpy as np
 import plotly_express as px
 
 '''
-# Club and Nationality App
+# Player Statistics App
 
-Web App to visualize football players data by Club and Nationality.
+A simple web App to visualize football players data by Club and Nationality.
+By **Lotachukwu Ibe**
 '''
 df = st.cache(pd.read_csv)("football_data.csv")
 
